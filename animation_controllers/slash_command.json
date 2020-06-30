@@ -1,0 +1,22 @@
+{
+    "format_version": "1.10.0",
+    "animation_controllers": {
+        "controller.animation.slash_command": {
+            "initial_state": "default",
+            "states": {
+                "default": {
+                    "transitions": [
+                        {
+                            "cmdstate": "1"
+                        }
+                    ]
+                },
+                "cmdstate": {
+                    "on_entry": [
+                        "/say ANIMATION SLASH COMMAND EXECUTED"
+                    ]
+                }
+            }
+        }
+    }
+}

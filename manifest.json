@@ -1,0 +1,27 @@
+{
+  "format_version": 1,
+  "header": {
+    "name": "test_typescript Behaviors",
+    "description": "typescript test for minecraft addon",
+    "uuid": "8fa156ce-ab21-402f-b934-6edd2a8e77d3",
+    "version": [
+      1,
+      0,
+      0
+    ]
+  },
+  "modules": [
+    {
+      "description": "behaviours for test_typescript",
+      "type": "client_data",
+      "uuid": "cd30b58a-e7ef-4f91-a42a-7bfbc6e30d13",
+      "version": [
+        1,
+        0,
+        0
+      ]
+    }
+  ],
+  "dependencies": [
+  ]
+}
